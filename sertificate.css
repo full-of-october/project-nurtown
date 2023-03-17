@@ -1,0 +1,13 @@
+.sertificate {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-page {
+   padding-left: 840px;   
+}
+
+.our-sertificates .title-h1 {
+    margin-bottom: 42px;
+    margin-top: 84px;
+}

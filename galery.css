@@ -1,0 +1,56 @@
+.garelly-title .title-h1 {
+    width: 450px;
+}
+
+.gallery-page .arrow {
+    display: inline-flex;
+}
+
+.gallery-page .page-left {
+    color: #333333;
+}
+
+.gallery-page .page-right {
+    margin-right: 26px;
+}
+
+.gallery-page {
+    margin-top: 60px;
+}
+
+.page-wrap {
+    display: inline-flex;
+    align-items: center;
+}
+
+.gallery-pics {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    border-top: 1px solid  #efeaea;
+    padding-top: 30px;
+}
+
+.pic1-text {
+    background: #FBFBFB;
+    width: 210px;
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    position: absolute;
+    bottom: 3px;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.pic1-test {
+    position: relative;
+}
+
+.pic1-test:hover .pic1-text {
+    opacity: 1;
+}

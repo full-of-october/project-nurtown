@@ -1,0 +1,46 @@
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.contacts-info-description .our-sertificates {
+    width: 300px;
+}
+
+.contacts-info-map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contacts-info-map {
+    position: relative;
+    right: -47px;
+    max-width: 60%;
+}
+
+.contacts-wrap {
+    overflow: hidden;
+}
+
+.contacts-info-description .location {
+    display: block;
+    margin-bottom: 43px;
+}
+
+.contacts-info-description .phone {
+    margin-bottom: 52px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contacts-info-description .e-mail {
+    margin-bottom: 32px;
+}
+
+.digital-project {
+    margin-bottom: 7px;
+}
+
